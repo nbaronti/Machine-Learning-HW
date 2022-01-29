@@ -33,11 +33,11 @@
 
 - **Answer:** The Random, SMOTE, & SMOTEENN models have the best accuracy scores with equal accuracy scores of 99.3%
 
-    1. No resampling balanced accuracy score: 0.9889115309798473
-    2. Random resampling balanced accuracy score: 0.9934649587814939
-    3. SMOTE resampling balanced accuracy score: 0.9934649587814939
-    4. ClusterCentroid resampling balanced accuracy score: 0.9929503031930944
-    5. SMOTEENN resampling balanced accuracy score: 0.9934649587814939
+    - No resampling balanced accuracy score: 0.9889
+    - Random resampling balanced accuracy score: 0.9934
+    - SMOTE resampling balanced accuracy score: 0.9934
+    - ClusterCentroid resampling balanced accuracy score: 0.9929
+    - SMOTEENN resampling balanced accuracy score: 0.9934
 
 **Question 2:** Which model had the best recall score?
 
@@ -74,4 +74,8 @@
 
 **Question 4:** What are the top three features?
 
-- **Answer**: The Top Three Features are: **total_rec_prncp (0.082), total_pymnt_inv (0.063), total_rec_int (0.057)**
+- **Answer**: The Top Three Features are: 
+
+    - total_rec_prncp (~8%)
+    - total_pymnt_inv (~6%)
+    - total_rec_int (~6%)
