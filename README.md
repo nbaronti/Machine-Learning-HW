@@ -13,32 +13,31 @@
 ---
 ![Linear Regression without Resampling](Images/LR.jpg)
 
-**Linear Regression with Random Oversampling - Classification Report**
+**Random Oversampling - Classification Report**
 ---
 ![Linear Regression with Random Oversampling](Images/Random.jpg)
 
-**Linear Regression with SMOTE Oversampling - Classification Report**
+**SMOTE Oversampling - Classification Report**
 ---
 ![Linear Regression with SMOTE Oversampling](Images/SMOTE.jpg)
 
-**Linear Regression with ClusterCentroid Undersampling - Classification Report**
+**ClusterCentroid Undersampling - Classification Report**
 ---
 ![Linear Regression with ClusterCentroid Undersampling](Images/CC.jpg)
 
-**Linear Regression with SMOTEENN Combination Sampling - Classification Report**
+**SMOTEENN Combination Sampling - Classification Report**
 ---
 ![Linear Regression with SMOTEENN Combination Sampling](Images/SMOTEENN.jpg)
 
 **Question 1:** Which model had the best balanced accuracy score?
 
-- **Answer:**
-1. No resampling balanced accuracy score: 0.9889115309798473
-2. Random resampling balanced accuracy score: 0.9934649587814939
-3. SMOTE resampling balanced accuracy score: 0.9934649587814939
-4. ClusterCentroid resampling balanced accuracy score: 0.9929503031930944
-5. SMOTEENN resampling balanced accuracy score: 0.9934649587814939
+- **Answer:** The Random, SMOTE, & SMOTEENN models have the best accuracy scores with equal accuracy scores of 99.3%
 
-- The Random, SMOTE, & SMOTEENN models have the best accuracy scores with equal accuracy scores of 99.3%
+    1. No resampling balanced accuracy score: 0.9889115309798473
+    2. Random resampling balanced accuracy score: 0.9934649587814939
+    3. SMOTE resampling balanced accuracy score: 0.9934649587814939
+    4. ClusterCentroid resampling balanced accuracy score: 0.9929503031930944
+    5. SMOTEENN resampling balanced accuracy score: 0.9934649587814939
 
 **Question 2:** Which model had the best recall score?
 
